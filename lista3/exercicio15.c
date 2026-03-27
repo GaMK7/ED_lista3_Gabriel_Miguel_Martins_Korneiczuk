@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int lista[10], lista2[10];
+    int lista[20], lista2[20];
     int k = 0;
     
-    for(int i = 0; i < 10; ++i){
+    for(int i = 0; i < 20; ++i){
         printf("Digite um numero: ");
         scanf("%d", &lista[i]);    
     }
     
-    for(int i = 0; i < 10; ++i){
+    for(int i = 0; i < 20; ++i){
         int repetido = 0;
         
         for(int j = 0; j < k; ++j){
